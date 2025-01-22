@@ -1,0 +1,403 @@
+/* Resetting default margin and padding */
+* {
+	
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8d07a;
+    margin-left: -34px;
+    margin-top: 153px;
+    margin-right: -5px;
+}
+.hero h1 {
+}
+
+header, nav ul, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8d07a;
+    color: #f8d07a;
+    padding-right: 0px;
+    padding-left: 38px;
+    padding-bottom: 0px;
+}
+.footer {
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: -48px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #f8d07a;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 5%;
+}
+
+.section {
+    flex: 1;
+    margin: 1rem;
+    background-color: #f8d07a;
+    padding: 1rem;
+}
+
+section img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #f8d07a;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 5%;
+}
+.hero h1 {
+}
+body h2 div {
+    margin-left: 540px;
+    color: #F10A0D;
+    font-weight: bold;
+}
+body div {
+    margin-top: 51px;
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 15px;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+body header {
+    color: #BD292B;
+    margin-left: 67px;
+}
+body {
+}
+body div {
+    margin-left: -174px;
+    text-align: left;
+}
+body div {
+    padding-left: 228px;
+    text-align: center;
+    color: #565656;
+}
+body div h3 {
+    color: #5A5A5A;
+}
+body div h5 {
+    color: #494949;
+}
+body div {
+}
+body footer {
+}
+body footer {
+}
+.hero h1 {
+    margin-left: -8px;
+    color: #FFFFFF;
+    margin-top: -91px;
+}
+.hero p {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: x-large;
+    text-shadow: 0px 0px #FD0105;
+    position: absolute;
+}
+body div {
+    color: #EF0E12;
+}
+body p {
+    color: #444343;
+}
+body {
+}
+h5 strong em {
+    color: #000000;
+}
+body h2 div {
+    margin-left: -94px;
+}
+body h4 {
+    font-weight: 600;
+    font-size: x-large;
+}
+body div {
+    color: #524E4E;
+}
+body img {
+}
+body footer {
+    margin-left: -9px;
+}
+.hero button img {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 10in;
+    height: 3in;
+}
+body header {
+}
+.logo img {
+    width: 2in;
+}
+body footer p {
+    color: #FFFFFF;
+}
+body div {
+}
+body div {
+    margin-left: -160px;
+}
+body div {
+    text-align: left;
+}
+body div {
+    text-align: center;
+}
+h1 {
+}
+body div {
+}
+body {
+}
+body div {
+    text-align: left;
+}
+body div {
+}
+body {
+}
+.cta-container .cta-button {
+}
+body div {
+    text-align: center;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    /* Tablet */
+    .content-section {
+        flex-direction: column;
+    }
+div {
+    text-align: left;
+    position: static;
+}
+body div {
+}
+body header {
+}
+cta button {
+    position: absolute;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    /* Mobile */
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+h1 {
+    position: absolute;
+    margin-top: -81px;
+}
+.hero p {
+    position: absolute;
+    margin-top: -57px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+.footer {
+}
+
+li a:hover {
+  background-color: #111;
+}
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General page setup */
+body {
+  font-family: 'Lato medium', sans-serif;
+  background-color: darkseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Main content area */
+.content {
+  background-color: #f8d07a;
+  padding: 30px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 102px;
+}
+
+.ticket-button {
+  background-color: #ff6347;
+  color: black;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.ticket-button:hover {
+  background-color: #e55347;
+}
+
+/* Footer setup */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Social media icons */
+footer .social-icon {
+  color: olivedrab;
+  margin: 0 15px;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+footer .social-icon:hover {
+  color: #ff6347;
+}
+
+/* Make sure everything is responsive */
+@media (max-width: 600px) {
+  .content {
+    padding: 20px;
+  }
+
+  .ticket-button {
+    font-size: 1.1rem;
+    padding: 10px 25px;
+  }
+}
+.hero {
+  /* Your hero section styles here */
+  background-image: url('your-hero-image.jpg');
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  text-align: right;
+  margin-top: 30px; /* Adjust depending on spacing you want */
+}
+
+.cta-button {
+  background-color: #ff6f61; /* Adjust color to match your theme */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff4b3a; /* Darker shade on hover */
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+}
+body header {
+    padding-top: 164px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
